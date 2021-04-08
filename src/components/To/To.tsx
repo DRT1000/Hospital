@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from "react";
 
-import style from "./App.module.css"
+import style from "../App/App.module.css"
 import {useSelector} from "react-redux";
-import {AppRootStateType} from "./store/store";
+import {AppRootStateType} from "../../store/store";
 
 type PropsType = {
     employeeId: string

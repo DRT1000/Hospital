@@ -1,9 +1,9 @@
 import React from "react";
 import {useSelector} from "react-redux";
-import {AppRootStateType} from "./store/store";
-import {getFilteredWorklog} from "./store/hospital-reducer";
+import {AppRootStateType} from "../../store/store";
+import {getFilteredWorklog} from "../../store/hospital-reducer";
 import {useParams} from "react-router-dom";
-import To from "./To";
+import To from "../To/To";
 import { TableContainer} from "@material-ui/core";
 import {TableBody} from "@material-ui/core";
 import {TableCell} from "@material-ui/core";

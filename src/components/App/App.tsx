@@ -1,9 +1,9 @@
 import React, {useEffect} from "react";
 import {Route} from "react-router-dom";
-import Employees from "./Employees";
-import WorkLog from "./WorkLog";
+import Employees from "../Employees/Employees";
+import WorkLog from "../WorkLog/WorkLog";
 import {useDispatch} from "react-redux";
-import {setSortedEmployeesTC, setWorkLogTC} from "./store/hospital-reducer";
+import {setSortedEmployeesTC, setWorkLogTC} from "../../store/hospital-reducer";
 
 
 
@@ -17,7 +17,6 @@ function App() {
 
 
     return (
-
         <div>
             <Route exact path={"/Hospital"} render={() => <Employees/>}/>
             <Route path={"/worklog/:id"} render={() => <WorkLog/>}/>

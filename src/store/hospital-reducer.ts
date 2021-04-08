@@ -1,5 +1,5 @@
 import {Dispatch} from "redux";
-import {getEmployees, getWorklog} from "../api";
+import {getEmployees, getWorklog} from "../api/api";
 import {AppRootStateType} from "./store";
 
 

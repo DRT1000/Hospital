@@ -1,7 +1,7 @@
 import React from "react";
 import {useSelector} from "react-redux";
-import {AppRootStateType} from "./store/store";
-import {getSortedEmployees} from "./store/hospital-reducer";
+import {AppRootStateType} from "../../store/store";
+import {getSortedEmployees} from "../../store/hospital-reducer";
 import {NavLink} from "react-router-dom";
 import {LinearProgress, Link, Table, TableBody, TableCell, TableContainer, TableRow} from "@material-ui/core";
 
