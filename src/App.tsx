@@ -19,7 +19,7 @@ function App() {
     return (
 
         <div>
-            <Route exact path={"/"} render={() => <Employees/>}/>
+            <Route exact path={"/Hospital"} render={() => <Employees/>}/>
             <Route path={"/worklog/:id"} render={() => <WorkLog/>}/>
         </div>
     )
